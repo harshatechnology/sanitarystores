@@ -952,7 +952,8 @@ section {
 
 .portfolio #portfolio-flters li {
   cursor: pointer;
-  display: inline-block;
+  /* display: inline-block; */
+  display: flex;
   margin: 10px 5px;
   font-size: 15px;
   font-weight: 500;
@@ -969,6 +970,9 @@ section {
   color: #fff;
 }
 
+.portfolio .d-flex {
+  flex-wrap: wrap;
+}
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
